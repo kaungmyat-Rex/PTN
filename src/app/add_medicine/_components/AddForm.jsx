@@ -65,29 +65,30 @@ const AddForm = () => {
         errorMessage={errorMessage}
         onchange={(e) => setCode(e.target.value)}
       />
-      <div className="flex justify-center items-center gap-x-2">
-        <Input
-          name="retail"
-          type="number"
-          placeholder=""
-          value={retail}
-          label="လက်လီ"
-          errorcode={errorCode}
-          errorMessage={errorMessage}
-          onchange={(e) => setRetail(e.target.value)}
-        />
-        <Input
-          name="wholesale"
-          type="number"
-          placeholder=""
-          value={wholesale}
-          label="လက်ကား"
-          errorcode={errorCode}
-          errorMessage={errorMessage}
-          onchange={(e) => setWholesale(e.target.value)}
-        />
+      <div className="w-full">
+        <div className="flex justify-center items-center gap-x-2">
+          <Input
+            name="retail"
+            type="number"
+            placeholder=""
+            value={retail}
+            label="လက်လီ"
+            errorcode={errorCode}
+            errorMessage={errorMessage}
+            onchange={(e) => setRetail(e.target.value)}
+          />
+          <Input
+            name="wholesale"
+            type="number"
+            placeholder=""
+            value={wholesale}
+            label="လက်ကား"
+            errorcode={errorCode}
+            errorMessage={errorMessage}
+            onchange={(e) => setWholesale(e.target.value)}
+          />
+        </div>
       </div>
-
       <button
         type="submit"
         className="w-full h-[45px] bg-[#6982dc] text-base text-white font-semibold rounded-sm mt-5"

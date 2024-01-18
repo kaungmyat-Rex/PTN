@@ -1,12 +1,12 @@
 export default function manifest() {
   return {
     name: "ဦးဖေသန်းညွန့်",
-    short_name: "Next.js App",
+    short_name: "ဦးဖေသန်းညွန့်",
     description: "ဦးဖေသန်းညွန့် Pharmacy Price list",
     start_url: "/",
     display: "standalone",
-    background_color: "#1b1a2b",
-    theme_color: "##1b1a2b",
+    background_color: "#000000",
+    theme_color: "#000000",
     icons: [
       {
         src: "/favicon.ico",

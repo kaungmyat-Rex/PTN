@@ -23,7 +23,7 @@ const ModalPopup = ({ popup, setPopup, medicinInfo }) => {
   const modelOverlay = `modal-overlay absolute w-full h-full left-0 top-0`;
   const modelMain = `modal-main ${
     popup ? "open-modal-main" : ""
-  } absolute max-w-[500px] bg-[#2d2f36] px-3 left-2 right-2 pb-14 rounded-3xl`;
+  } absolute max-w-[500px] md:max-w-[900px] bg-[#2d2f36] px-3 left-2 right-2 pb-[200px] rounded-3xl`;
   return (
     <div className={modelClass}>
       <div className={modelOverlay} onClick={() => setPopup(false)} />
